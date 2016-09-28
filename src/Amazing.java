@@ -57,9 +57,9 @@ public class Amazing {
 	Random r;
 
 	public static void main(String args[]){
-		int rows = 1000;
-		int cols = 1000;
-		int reps = 1;
+		int rows = 100;
+		int cols = 50;
+		int reps = 25;
 		if (args.length == 2) {
 			rows = (new Integer(args[0])).intValue();
 			cols = (new Integer(args[1])).intValue();
